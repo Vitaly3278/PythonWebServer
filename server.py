@@ -15,5 +15,4 @@ while True:
     if msg == 'exit':
         break
     resp = input('Answer >> ')
-
     conn.send(resp.encode())
